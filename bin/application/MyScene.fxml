@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="get6" prefHeight="256.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="myButton" layoutX="35.0" layoutY="107.0" mnemonicParsing="false" onAction="#showPassword" prefHeight="70.0" prefWidth="87.0" text="Get pw" />
+      <TextField fx:id="myTextField1" layoutX="35.0" layoutY="28.0" prefHeight="23.0" prefWidth="193.0" />
+      <TextField fx:id="myTextField2" layoutX="35.0" layoutY="197.0" prefHeight="23.0" prefWidth="193.0" />
+      <Button fx:id="myButton1" layoutX="141.0" layoutY="106.0" mnemonicParsing="false" onAction="#show6" prefHeight="70.0" prefWidth="87.0" text="Get 6d" />
+      <PasswordField fx:id="password" layoutX="35.0" layoutY="65.0" prefHeight="23.0" prefWidth="193.0" />
+   </children>
+</AnchorPane>
